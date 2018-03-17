@@ -1,0 +1,16 @@
+.logo{
+    display: block;
+    float: left;
+    height: 40px;
+    margin-top: 10px;
+    animation:xuanzhuan 4s linear infinite;
+}
+.logo::after{
+    clear: both;
+    content: "dasd";
+    visibility: hidden;
+}
+@keyframes xuanzhuan{
+    from {transform:rotate(0deg)}
+    to {transform:rotate(360deg)}
+}

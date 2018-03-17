@@ -1,0 +1,36 @@
+.normal{
+    display: block;
+    width: 9px;
+    height: 5px;
+    position: absolute;
+    /* background: #fff; */
+    background: url("./files/assort-icon.png");
+    top: 27px;
+    right: 7px;
+    cursor: pointer;
+}
+.hover{
+    background: url("./files/assort-icon-hover.png");
+}
+.noral>i{
+    position: absolute;
+    top: -10px;
+    right: 50%;
+    margin-right: -10px;
+    /* border-top: 0; */
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ddd;
+}
+.normal>i::after{
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 1px;
+    right: -10px;
+    border-top: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+}

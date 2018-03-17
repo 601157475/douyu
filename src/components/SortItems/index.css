@@ -1,0 +1,14 @@
+.container{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.items{
+    overflow: auto;
+    padding: 0 25px;
+    flex: 1;
+}
+.h100{
+    height: inherit;
+    width: 100%;
+}

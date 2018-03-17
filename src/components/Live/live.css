@@ -1,0 +1,113 @@
+.container{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    margin-top: 20px;
+    height: inherit;
+}
+.header{
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid #d1d1d1;
+    width: 640px;
+}
+.avatar{
+    height: 124px;
+    width: 124px;    
+}
+.avatar>img{
+    width: 100%;
+    height: 100%;
+}
+/* 信息 */
+.msgWarpper{
+    padding: 10px;
+    flex:auto;
+    display: flex;
+    flex-direction: column;
+}
+/* 主播信息 - top */
+.top{
+    display: flex;
+}
+.fans{
+    width: 142px;
+    border-radius: 25px;
+    background: #fff;
+    height: 25px;
+    line-height: 25px;
+    color: #879aa8;
+    font-size: 12px;
+}
+.fansIcon{
+    display: inline-block;
+    width: 50%;
+    color: #fff;
+    padding-left: 8px;
+    box-sizing: border-box;
+    background: #f70;
+    border-radius: 25px 0 0 25px ;
+}
+.text{
+    margin-left: 10px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.fansNum{
+    display: inline-block;
+    width: 50%;
+    background: #fff;
+    border-radius: 0 25px 25px 0;
+    box-sizing: border-box;
+    padding-right: 8px;
+    text-align: center;
+}
+/* 房间名 */
+.roomName{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 25px;
+    color: #2c3e50;
+    flex: auto;
+}
+/* 举报连接 */
+.roomName>a{
+    padding-left: 20px;
+    font-size: 12px;
+    color: #555;
+}
+
+/* 主播信息 - mid */
+.mid{
+    line-height: 18px;
+    font-size: 12px;
+    color: #838c9a;
+}
+.cateName{
+    font-size: 13px;
+}
+.link{
+    text-decoration: none;
+    color:inherit;
+}
+/* 主播信息 - bottom */
+.bottom{
+    margin-top: 10px;
+    color: #555;
+    font-size: 12px;
+}
+.item{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+/* 视频 */
+.roomVideo{
+    margin-top: 20px;
+}

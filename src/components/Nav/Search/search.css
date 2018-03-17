@@ -1,0 +1,34 @@
+.wrapper{
+    height: 26px;
+    float: right;
+    padding: 3px 5px 3px 20px;
+    font-size: 26px;
+    background: #e8e8e8;
+    margin-top: 14px;
+    border-radius: 50px;
+    line-height: 26px;
+}
+.search{
+    height: 26px;
+    width: 120px;
+    font-size: 14px;
+    /* padding: 2px 5px; */
+    display:block;
+    float: left;
+    background:0 0;
+    border: none;
+    transition: width 0.5s; 
+    font-family: "Microsoft YaHei"
+}
+.search:focus{
+    width: 150px;  
+    transition: width 0.5s; 
+}
+.btn{
+    cursor: pointer;
+}
+
+@keyframes xuanzhuan{
+    from {width: 100px;}
+    to {width: 150px;}
+}

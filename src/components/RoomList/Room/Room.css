@@ -1,0 +1,77 @@
+.room{
+    /* float: left; */
+    /* width: 275px;
+    height: 219px; */
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    box-sizing:content-box;
+    padding-bottom: 10px;
+    border-bottom: 3px solid white;
+}
+.room:hover{
+    border-bottom: 3px solid #D2D2D2;
+    opacity: 0.8;
+}
+.room>a {
+    text-decoration: none;
+}
+.img{
+    /* width:275px; */
+    /* height:157px; */
+    width: 100%;
+    /* height: 100%; */
+}
+
+/* 信息框 */
+.msg{
+    margin-top: 5px;
+}
+
+
+/* 标题和种类 */
+.title{
+    line-height: 20px;
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 5px;
+}
+.title>h3{
+    width: 70%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: 500;
+    font-size: 14px;
+    color: #313131;
+}
+.title>span{
+    display: block;
+    width: 60px;
+    font-size: 12px;
+    text-align: right;
+    color: #f60;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* 房间主播名 */
+.name{
+    display: inline-block;
+    width: 70%;
+    box-sizing: border-box;
+    padding-left: 5px;
+    font-size: 12px;
+    color: #797979;
+}
+/* 在线人数 */
+.online{
+    text-align: right;
+    width: 30%;
+    display: inline-block;
+    /* padding-left: 18px; */
+    font-size: 12px;
+    color: #797979;
+}

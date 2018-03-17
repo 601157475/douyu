@@ -1,0 +1,14 @@
+.warpper{
+    width: 100%;
+    padding: 10px 20px 0;
+    box-sizing: border-box;
+}
+.warpper>a{
+    font-size: 20px;
+    color: #3e3e3e;
+    font-weight: 700;
+    text-decoration: none;
+}
+.warpper>a:hover{
+    color:#f70;
+}

@@ -1,0 +1,31 @@
+.container{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.roombox{
+    background: #FFF;
+    list-style: none;
+    /* box-sizing: border-box; */
+    padding-left: 20px;
+    /* padding-top: 80px; */
+
+    /* 作为Item的属性 */
+
+    /* flex 容器属性 */
+    /* width: 1200px; */
+    /* background: #000; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.roombox::after{
+    /* display: block;
+    content: "das";
+    visibility: hidden;
+    clear: both; */
+    content: "";
+    flex: auto;
+}

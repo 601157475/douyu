@@ -1,0 +1,19 @@
+.header{
+    height: 60px;
+    width: 100%;
+    border-bottom-color: #4d4d4d;
+    /* position: fixed; */
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: #232323;
+}
+.contianer{
+    /* margin: 0 auto;   */
+    padding: 30px 0;
+    width: 100%;
+    height: 100%;
+    /* min-width: 800px; */
+    /* margin-top: 80px; */
+    overflow-y: auto;
+}
